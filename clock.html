@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Amazing clock</title>
+</head>
+
+<!-- Carrega no momento que abrir -->
+<body onload="Clock()">
+    <div class="datetime">
+        <div class="date">
+            <!-- data -->
+            <span id="dayname">Day</span><span>,</span>
+            <span id="month">Month</span>
+            <span id="daynum">00</span><span>,</span>
+            <span id="year">Year</span>
+        </div>
+        <div class="time">
+            <!-- hora -->
+            <span id="hour">00</span><span>:</span>
+            <span id="minutes">00</span><span>:</span>
+            <span id="seconds">00</span>
+            <span id="period">am</span>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="/assets/script.js"></script>
+</body>
+</html>

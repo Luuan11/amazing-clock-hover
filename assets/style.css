@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #232424;
+}
+
+.datetime{
+    color: #fff;
+    width: 500px;
+    padding: 15px 10px;
+    font-family: "poppins", sans-serif;
+    border: 3px solid #922ee3;
+    text-align: center;
+    border-radius: 8px;
+    /* Poucos browers */
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: all .5s;
+}
+
+
+/* efeito a data quando o mouse estiver sobre */
+.datetime:hover{
+    background: #922ee3;
+    box-shadow: 0 0 30px #922ee3;
+    transform: scale(1.1);
+}
+
+/* Estila a data */
+.date{
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Estiliza o horario */
+
+.time{
+    font-size: 4.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estiliza o horario */
+.time span:not(:last-child){
+    position: relative;
+    margin: 10px 0 0 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* estriliza o periodo */
+.time span:last-child{
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 10px 0 0 10px;
+    padding: 0 5px;
+}
