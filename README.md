@@ -5,7 +5,7 @@
 
 
 ### ⏰ Sobre
-Relogio com efeito Hover, feito usando HTML, CSS e JS, código comentado, espero que gostem, divirta-se :D
+Relogio com efeito Hover e reflexo, feito usando HTML, CSS e JS, código comentado, espero que gostem, divirta-se :D
 
 ### ✨ Tecnologias Usadas 
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
