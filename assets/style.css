@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
     background-color: #232424;
 }
 
@@ -65,4 +66,27 @@ body{
     text-transform: uppercase;
     margin: 10px 0 0 10px;
     padding: 0 5px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 550px) and (min-width:180px){
+    .datetime {
+        width: 300px;
+        /* background-color: red; indicando com cores */
+    }
+
+    .time{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 300px) and (min-width:180px){
+    .datetime {
+        width: 250px;
+        /* background-color: blue; indicando com cores */
+    }
+
+    .time{
+        font-size: 2em;
+    }
 }
